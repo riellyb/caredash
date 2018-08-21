@@ -1,7 +1,7 @@
 # Brendan Rielly's CareDash Webpage
 
 ### Demo
-[Live Demo lives here](https://sharp-kirch-db3e36.netlify.com/)
+[Live Demo](https://sharp-kirch-db3e36.netlify.com/)
 
 ### Requirements
 

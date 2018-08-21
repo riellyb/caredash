@@ -9,10 +9,10 @@ const IndexPage = props =>
     <section>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-12 col-lg-8">
-            <Hero src={'https://via.placeholder.com/3000x2000'}></Hero>
+          <div className="col-12 col-md-12 col-lg-8 hero">
+            <Hero></Hero>
           </div>
-          <div className="col-12 col-md-12 col-lg-4">
+          <div className="col-12 col-md-12 col-lg-4 grey-background">
             <Form></Form>
           </div>
         </div>

@@ -3,16 +3,37 @@
 	display: table; 
     background-color: $color_grey;
     padding: 20px;
+    margin: auto;
+    &-login,
+    &-signup {
+    	li     { display: table-row;  }
+    }
 	&-list {
 		list-style: none;
 		padding: 0;
 	}
-	li     { display: table-row;  }
 	label { display: table-cell; }
 	input { display: table-cell; }
 	.button {
 		display: block;
-		float: left;
+		float: right;
+		border: none;
+		&-text {
+			color: $color-main;
+			background: none;
+			&:hover {
+				color: #000;
+			}
+		}
+		&-container {
+			display: block;
+			padding: 20px 0;
+			&:after {
+				display: table;
+				content: '';
+				clear: both;
+			}
+		}
 	}
 }
 

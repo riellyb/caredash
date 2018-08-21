@@ -3,31 +3,35 @@
     background-color: #fff;
     padding: 40px 0;
     ul {
-		list-style: none;
-		padding: 5px;
-	}
+        list-style: none;
+        padding: 5px;
+    }
     &-follow {
-    	ul {
-    		padding: 0;
-    		-webkit-margin-before: 0;
-    		-webkit-padding-start: 0;
-    	}
-    	li {
-    		float: left;
-    		padding: 10px;
-    	}
-    	img {
-    		width: 50px;
-    	}
+        ul {
+            padding: 0;
+            -webkit-margin-before: 0;
+            -webkit-padding-start: 0;
+        }
+        li {
+            float: left;
+            padding: 10px;
+        }
+        img {
+            width: 50px;
+        }
     }
     &-social-image {
-    	transition: all 500ms;
-    	cursor: pointer;
-    	&:hover {
-			opacity: .7;
-    	}
+        transition: all 500ms;
+        cursor: pointer;
+        img {
+            -webkit-filter : hue-rotate(180deg);
+            filter : hue-rotate(180deg);
+        }
+        &:hover {
+            opacity: .7;
+        }
     }
     &-copyright {
-    	padding-top: 20px;
+        padding-top: 20px;
     }
 }

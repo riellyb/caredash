@@ -3,7 +3,7 @@ import React from 'react';
 import './_button.scss';
 
 const Button = props => (
-  <a href={props.link} className={`button ${props.className}`}>{props.text}</a>
+  <button onClick={props.onClick} className={`button ${props.className}`} type="button">{props.text}</button>
 );
 
 export default Button;
