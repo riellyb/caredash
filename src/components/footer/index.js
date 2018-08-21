@@ -33,7 +33,7 @@ const Footer = () =>
             <ul>
               <li className="footer-social-image"><img src="https://image.freepik.com/free-icon/instagram-photo-camera-logo-outline_318-56004.jpg" /></li>
               <li className="footer-social-image"><img src="https://image.freepik.com/free-icon/facebook-logo_318-49940.jpg" /></li>
-              <li className="footer-social-image"><img src="http://backgroundcheckall.com/wp-content/uploads/2017/12/twitter-round-logo-png-transparent-background-1.jpg" /></li>
+              <li className="footer-social-image"><img src="https://image.freepik.com/free-icon/twitter-logo_318-40209.jpg" /></li>
               <li className="footer-social-image"><img src="https://image.freepik.com/free-icon/pinterest-logo-circle_318-40721.jpg" /></li>
             </ul>
           </div>
