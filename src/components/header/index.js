@@ -35,10 +35,10 @@ const Header = () =>
                   </div>
                 </li>
                 <li className="header-nav-list-item">
-                  <Link to="/find">Find a Doctor</Link>
+                  <Link to="">Find a Doctor</Link>
                 </li>
                 <li className="header-nav-list-item">
-                  <Link to="/family">Family</Link>
+                  <Link to="">Family</Link>
                 </li>
               </ul>
             </nav>
