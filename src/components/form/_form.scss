@@ -13,7 +13,10 @@
 		padding: 0;
 	}
 	label { display: table-cell; }
-	input { display: table-cell; }
+	input { 
+		display: table-cell;
+		margin-left: 5px;
+	}
 	.button {
 		display: block;
 		float: right;
@@ -39,7 +42,6 @@
 
 
 .input {
-
 	&-text {
 		max-width: 200px;
     	margin: 5px 0;
