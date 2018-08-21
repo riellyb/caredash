@@ -1,20 +1,27 @@
 .header {
     width: 100%;
-    &-content {
-        height: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    height: 120px;
     &-nav-list {
         margin: 0;
         padding: 0;
-        list-style-type: none;
+        list-style: none;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: end;
+        justify-content: flex-start;
+        padding: 10px;
+        @media only screen and (max-width: 767px) {
+            justify-content: start;
+        }
         &-item {
             margin-right: 10px;
         }
+    }
+    .dropdown-menu ul {
+        list-style: none;
+        padding-left: 10px;
+    }
+    &-image {
+        width: 200px;
+        max-width: 100%;
     }
 }

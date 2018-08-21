@@ -1,25 +1,20 @@
 import React from 'react';
+import Article from '../article';
 
 import './_features.scss';
 
 const NewsListing = props =>
   (<section className="features" id="features">
     <div className="container">
-      <div className="row">
+      <div className="row article-header">
         <div className="col-12">
-          <h4 className="features-title">Features</h4>
+          <h2>Reasons to Sign Up as a Provider on CareDash</h2>
         </div>
       </div>
       <div className="row">
-        <div className="col-12">
-          <ul className="features-list">
-            {props.data.map((item, i) =>
-              (<li className="features-list-item" key={i}>
-                {item.title}
-              </li>),
-            )}
-          </ul>
-        </div>
+        <Article image={'https://via.placeholder.com/200x200'} headline={'Article 1'}></Article>
+        <Article image={'https://via.placeholder.com/200x200'} headline={'Article 2'}></Article>
+        <Article image={'https://via.placeholder.com/200x200'} headline={'Article 3'}></Article>
       </div>
     </div>
   </section>);

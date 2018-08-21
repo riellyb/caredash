@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-react-boilerplate",
+  "name": "care-dash",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
-  "author": "Prototype Interactive",
+  "author": "Brendan Rielly",
   "license": "MIT",
   "dependencies": {
     "basic-auth": "^2.0.0",
@@ -47,10 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrototypeInteractive/gatsby-react-boilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate/issues"
+    "url": "git+https://github.com/riellyb/caredash.git"
   },
   "homepage": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate#readme"
 }

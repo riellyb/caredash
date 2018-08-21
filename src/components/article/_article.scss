@@ -1,0 +1,16 @@
+@import '../../../sass/settings';
+.article {
+   padding: 40px;
+   &-header {
+    text-align: center;
+   }
+   &-headline {
+    text-align: center;
+   }
+   &-image {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 90%;
+   }
+}

@@ -1,8 +1,10 @@
+@import '../../../sass/settings';
 .button {
     display: inline-block;
-    appearance: none;
-    border: solid 1px black;
-    color: black;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    color: #000;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -11,11 +13,27 @@
     font-size: 20px;
     font-weight: 500;
     position: relative;
+    transition: all 500ms;
     &:hover,
     &:focus,
     &:visited,
     &:active {
-        color: black;
+        color: #777;
         text-decoration: none;
     }
+    &-primary {
+        background-color: $color_main;
+        color: #fff;
+        &:hover {
+            opacity: .8;
+        }
+        &:hover,
+        &:focus,
+        &:visited,
+        &:active {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    
 }
